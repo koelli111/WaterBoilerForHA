@@ -7,7 +7,6 @@
 # - Uses that learned value to calculate how many slots are needed to reach the target temp
 # - Fallback planning when temp sensor is unavailable
 #
-# Added per your requests:
 # - Emergency / instant heat override latch:
 #     * ON when temp < EMERGENCY_BELOW_C
 #     * OFF when temp >= MANDATORY_TARGET_TEMP_C
